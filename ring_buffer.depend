@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1618572268 source:d:\github\ring_buffer\main.cpp
+	<iostream>
+	"my_queue.h"
+
+1618566658 d:\github\ring_buffer\my_queue.h
+	<ctype.h>
+	"stdio.h"
+	<stdint.h>
+	<string.h>
+
+1618566957 source:d:\github\ring_buffer\my_queue.cpp
+	"my_queue.h"
+
