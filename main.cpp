@@ -2,7 +2,7 @@
 
 using namespace std;
 
-#include "my_queue.h"
+#include "ring_buffer.h"
 
 MyQueue fifo;
 
@@ -20,7 +20,7 @@ int main()
 {
     cout << "FIFO Test" << endl;
     print_queue(fifo);
-    test2();
+    test1();
 
     return 0;
 }
@@ -200,7 +200,7 @@ void test2()
         printf("Available = %d\n", fifo.Available());
         if (fifo.ReadLine(command) == false)
         {
-            printf("No commands!!\n",fifo.Available());
+            printf("No commands!!\n");
         }
         else
             printf("----%s",command);
